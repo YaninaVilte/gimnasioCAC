@@ -1,11 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hoja de Inscripción - Gimnasio</title>
+  <link rel="stylesheet" href="../css/stylesDevTomas.css">
 </head>
-<body>
-    
-</body>
-</html>
+    <body>
+
+        <div class="container">
+        <h1>Hoja de Inscripción  Gimnasio</h1>
+        <form action="../index.html" method="post">
+            <div class="Datos-Personales"></div>
+            <fieldset>
+        <h2>Datos personales</h2>
+        <label for="Nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="Apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido">
+        <br><br>
+        <label for="Fecha de nacimiento">Fecha de nacimiento:</label>
+        <input type="date" id=fechaNacimiento name="fechaNacimiento">
+        <br><br>
+        <label for="Dni">Dni:</label>
+        <input type="number" id="dni" name="dni">
+        <br><br>
+        <label for="Direccion">Direccion:</label>
+        <input type="text" id="direccion" name="direccion">
+        <label for="Ciudad">Ciudad:</label>
+        <input type="text" id="ciudad" name="ciudad">
+        <br><br>
+        <label for="Telefono">Telefono:</label>
+        <input type="number" id="telefono" name="telefono">
+        <label for="Mail">Mail:</label>
+        <input type="email" id="mail" name="mail" size="23">
+        </fieldset>
+        
+        <br><br>
+        <div class="Salud"></div>
+        <fieldset>
+        <h2>Cuestionario previo de salud</h2>
+        <label>¿Ha tenido o tiene alguna lesión ósea?</label>
+        <input type="radio" name="lesionOsea" value="si"> Sí
+        <input type="radio" name="lesionOsea" value="no"> No
+        <br>
+        <textarea name="lesionOsea" cols="42" rows="2" placeholder="Describa brevemente el problema"></textarea>
+        <br><br>
+        <label>¿Ha tenido o tiene alguna lesion muscular?</label>
+        <input type="radio" name="lesionMuscular" id="lesionMuscular" value="si"> Si
+        <input type="radio" name="lesionMuscular" id="lesionMuscular" value="no"> No
+        <br>
+        <textarea name="lesionMuscular" id="lesionMuscular" cols="42" rows="2" placeholder="Describa brevemente el problema"></textarea>
+        <br><br>
+        <label>¿Padece de alguna enfermedad cardiovascular?</label>
+        <input type="radio" name="enfermedadCardiovascular" value="si"> Sí
+        <input type="radio" name="enfermedadCardiovascular" value="no"> No
+        <br><br>
+        <label>¿Se afixia con facilidad al realizar ejercicio físico?</label>
+        <input type="radio" name="afixia_ejercicio" value="si"> Sí
+        <input type="radio" name="afixia_ejercicio" value="no"> No
+        <br><br>
+        <label>¿Padece de anemia en la actualidad?</label>
+        <input type="radio" name="anemia" value="si"> Sí
+        <input type="radio" name="anemia" value="no"> No
+        <br><br>
+        <label>¿Ha practicado o practica alguna actividad física?</label>
+        <input type="radio" name="actividad_fisica" value="si"> Sí
+        <input type="radio" name="actividad_fisica" value="no"> No
+        </fieldset>
+        <br><br>
+        <input type="submit" value="Registrarse">
+    </form>
+    </div>
+
+    </body>
+    </html>
