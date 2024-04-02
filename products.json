@@ -4,14 +4,14 @@
     "category": "Proteínas",
     "nombre": "Proteina",
     "precio": 1500,
-    "img": "/assets/creatine.jpg"
+    "img": "./assets/creatine.jpg"
   },
   {
     "id": 2,
     "category": "Protección",
     "nombre": "Guantes",
     "precio": 6000,
-    "img": "/assets/grappling-gloves.jpg"
+    "img": "../assets/grappling-gloves.jpg"
   },
   {
     "id": 3,
