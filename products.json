@@ -4,7 +4,7 @@
     "category": "Proteínas",
     "nombre": "Proteina",
     "precio": 1500,
-    "img": "./assets/creatine.jpg"
+    "img": "../assets/creatine.jpg"
   },
   {
     "id": 2,
@@ -18,111 +18,111 @@
     "category": "Protección",
     "nombre": "Cinta protectora",
     "precio": 4600,
-    "img": "/assets/handwraps.jpg"
+    "img": "../assets/handwraps.jpg"
   },
   {
     "id": 4,
     "category": "Botellas",
     "nombre": "Botella transparente",
     "precio": 550,
-    "img": "/assets/water-bottle.jpg"
+    "img": "../assets/water-bottle.jpg"
   },
   {
     "id": 5,
     "category": "Botellas",
     "nombre": "Botella de lata",
     "precio": 720,
-    "img": "/assets/water-bottle2.jpg"
+    "img": "../assets/water-bottle2.jpg"
   },
   {
     "id": 6,
     "category": "Botellas",
     "nombre": "Botella verde",
     "precio": 400,
-    "img": "/assets/water-bottle3.jpg"
+    "img": "../assets/water-bottle3.jpg"
   },
   {
     "id": 7,
     "category": "Bolsos",
     "nombre": "Bolso",
     "precio": 420,
-    "img": "/assets/bag.jpg"
+    "img": "../assets/bag.jpg"
   },
   {
     "id": 8,
     "category": "Bolsos",
     "nombre": "Bolso",
     "precio": 800,
-    "img": "/assets/bag2.jpg"
+    "img": "../assets/bag2.jpg"
   },
   {
     "id": 9,
     "category": "Accesorios",
     "nombre": "Cell holder",
     "precio": 600,
-    "img": "/assets/cell-holder.jpg"
+    "img": "../assets/cell-holder.jpg"
   },
   {
     "id": 10,
     "category": "Ropa",
     "nombre": "Leggins tricolor",
     "precio": 3500,
-    "img": "/assets/leggins.jpg"
+    "img": "../assets/leggins.jpg"
   },
   {
     "id": 11,
     "category": "Zapatillas",
     "nombre": "Zapatillas negras",
     "precio": 18000,
-    "img": "/assets/sneakers-black.jpg"
+    "img": "../assets/sneakers-black.jpg"
   },
   {
     "id": 12,
     "category": "Zapatillas",
     "nombre": "Zapatillas verdes",
     "precio": 700,
-    "img": "/assets/sneakers-green.jpg"
+    "img": "../assets/sneakers-green.jpg"
   },
   {
     "id": 13,
     "category": "Zapatillas",
     "nombre": "Zapatillas grises",
     "precio": 700,
-    "img": "/assets/sneakers-grey.jpg"
+    "img": "../assets/sneakers-grey.jpg"
   },
   {
     "id": 14,
     "category": "Zapatillas",
     "nombre": "Zapatillas rosas",
     "precio": 7000,
-    "img": "/assets/sneakers-pink.jpg"
+    "img": "../assets/sneakers-pink.jpg"
   },
   {
     "id": 15,
     "category": "Ropa",
     "nombre": "Pantalón negro",
     "precio": 2000,
-    "img": "/assets/sport-pants.jpg"
+    "img": "../assets/sport-pants.jpg"
   },
   {
     "id": 16,
     "category": "Ropa",
     "nombre": "Musculosa blanca",
     "precio": 2000,
-    "img": "/assets/tshirt.jpg"
+    "img": "../assets/tshirt.jpg"
   },
   {
     "id": 17,
     "category": "Ropa",
     "nombre": "Musculosa gris",
     "precio": 2000,
-    "img": "/assets/tshirt2.jpg"
+    "img": "../assets/tshirt2.jpg"
   },
   {
     "id": 18,
     "category": "Ropa",
     "nombre": "Remera verdde claro",
     "precio": 2000,
-    "img": "/assets/tshirt3.jpg"
+    "img": "../assets/tshirt3.jpg"
   }
 ]
