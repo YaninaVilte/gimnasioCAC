@@ -28,18 +28,26 @@ function renderizarProductos(productosEnStore) {
         <h4 class="categoria">Categoría: ${producto.category}</h4>
         <h2 class="nombre">${producto.nombre}</h2>
         <h1 class="precio">$ ${producto.precio}</h1>
-        <button id="${producto.id}" class="botonAgregar">Agregar al carrito</button>
+        <button class="ver-detalle-btn" data-producto-id="${producto.id}">Ver detalle</button>
         </div>
         </div>`;
 
-
         contenedorProductos.append(div)
+    });
 
+    // Agrega manejador de eventos clic a los botones "Ver detalle"
+    const verDetalleBtns = document.querySelectorAll('.ver-detalle-btn');
+    verDetalleBtns.forEach(btn => {
+        btn.addEventListener('click', mostrarDetalleProducto);
     });
 }
 
 renderizarProductos(productos)
 
+function mostrarDetalleProducto(event) {
+    const productoId = event.target.getAttribute('data-producto-id');
+    window.location.href = `productDetail.html?id=${productoId}`;
+}
 
 
 document.addEventListener("DOMContentLoaded", function () {
