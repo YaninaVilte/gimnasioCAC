@@ -89,7 +89,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         claseProductos.forEach(function (producto) {
             if (
-                producto.querySelector(".botonAgregar").id.toLowerCase().includes(query) ||
                 producto.querySelector(".nombre").textContent.toLowerCase().includes(query) ||
                 producto.querySelector(".precio").textContent.toLowerCase().includes(query) ||
                 producto.getAttribute("category").toLowerCase().includes(query)
@@ -100,4 +99,5 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     });
+
 });

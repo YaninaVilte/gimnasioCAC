@@ -3,9 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Carrito</title>
+    <!-- Poner Favicon -->
+    
+    <!-- Poner las Etiquetas meta -->
+    <link href="
+    https://cdn.jsdelivr.net/npm/sweetalert2@11.10.7/dist/sweetalert2.min.css
+    " rel="stylesheet">
+    <link rel="stylesheet" href="../css/stylesDevYanina.css" />
+
 </head>
 <body>
+    <!-- Header -->
+    <nav class="navbar">
+        <h1>Aca va el navbar</h1>
+    </nav>
+
+    <h1 class="tituloCarrito" id="tituloCarrito">Carrito de Compras</h1>
+    <h1 class="tituloCarritoVacio" id="tituloCarritoVacio">Todavía, no hay productos en tu carrito</h1>
+    
+    <div class="contenedorProductosCarrito" id="contenedorProductosCarrito"></div>
+
+    <div class="totalesCarrito">     
+        <h3 class="unidadesCarrito" id="unidadesCarrito"></h3>
+        <h3 class="precioCarrito" id="precioCarrito"></h3>
+    </div>
+
+
+    <div id="vaciar-continuar" class="vaciar-continuar">     
+        <button class="vaciarCarrito" id="vaciarCarrito">Vaciar carrito</button>
+        <button class="continuarCompra" id="continuarCompra">Finalizar compra</button>
+        <a href="../index.html">
+        <button class="bi bi-arrow-return-left">Agregar productos</button> 
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <h2>Aca va el footer</h2>
+    </footer>
+
+    <!-- Etiquetas script -->
+    <script src="../js/cart.js"></script>
+    <script src="
+    https://cdn.jsdelivr.net/npm/sweetalert2@11.10.7/dist/sweetalert2.all.min.js
+    "></script>
     
 </body>
 </html>
