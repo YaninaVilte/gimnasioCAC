@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "category": "Proteínas",
+    "nombre": "Proteina",
+    "precio": 1500,
+    "img": "../assets/creatine.jpg",
+    "detail": "El mejor producto1",
+    "stock": 1
+  },
+  {
+    "id": 2,
+    "category": "Protección",
+    "nombre": "Guantes",
+    "precio": 6000,
+    "img": "../assets/grappling-gloves.jpg",
+    "detail": "El mejor producto2",
+    "stock": 2
+  },
+  {
+    "id": 3,
+    "category": "Protección",
+    "nombre": "Cinta protectora",
+    "precio": 4600,
+    "img": "../assets/handwraps.jpg",
+    "detail": "El mejor producto3",
+    "stock": 3
+  },
+  {
+    "id": 4,
+    "category": "Botellas",
+    "nombre": "Botella transparente",
+    "precio": 550,
+    "img": "../assets/water-bottle.jpg",
+    "detail": "El mejor producto4",
+    "stock": 4
+  },
+  {
+    "id": 5,
+    "category": "Botellas",
+    "nombre": "Botella de lata",
+    "precio": 720,
+    "img": "../assets/water-bottle2.jpg",
+    "detail": "El mejor producto5",
+    "stock": 5
+  },
+  {
+    "id": 6,
+    "category": "Botellas",
+    "nombre": "Botella verde",
+    "precio": 400,
+    "img": "../assets/water-bottle3.jpg",
+    "detail": "El mejor producto6",
+    "stock": 6
+  },
+  {
+    "id": 7,
+    "category": "Bolsos",
+    "nombre": "Bolso",
+    "precio": 420,
+    "img": "../assets/bag.jpg",
+    "detail": "El mejor producto7",
+    "stock": 7
+  },
+  {
+    "id": 8,
+    "category": "Bolsos",
+    "nombre": "Bolso",
+    "precio": 800,
+    "img": "../assets/bag2.jpg",
+    "detail": "El mejor producto8",
+    "stock": 8
+  },
+  {
+    "id": 9,
+    "category": "Accesorios",
+    "nombre": "Cell holder",
+    "precio": 600,
+    "img": "../assets/cell-holder.jpg",
+    "detail": "El mejor producto9",
+    "stock": 9
+  },
+  {
+    "id": 10,
+    "category": "Ropa",
+    "nombre": "Leggins tricolor",
+    "precio": 3500,
+    "img": "../assets/leggins.jpg",
+    "detail": "El mejor producto10",
+    "stock": 10
+  },
+  {
+    "id": 11,
+    "category": "Zapatillas",
+    "nombre": "Zapatillas negras",
+    "precio": 18000,
+    "img": "../assets/sneakers-black.jpg",
+    "detail": "El mejor producto11",
+    "stock": 11
+  },
+  {
+    "id": 12,
+    "category": "Zapatillas",
+    "nombre": "Zapatillas verdes",
+    "precio": 700,
+    "img": "../assets/sneakers-green.jpg",
+    "detail": "El mejor producto12",
+    "stock": 12
+  },
+  {
+    "id": 13,
+    "category": "Zapatillas",
+    "nombre": "Zapatillas grises",
+    "precio": 700,
+    "img": "../assets/sneakers-grey.jpg",
+    "detail": "El mejor producto13",
+    "stock": 13
+  },
+  {
+    "id": 14,
+    "category": "Zapatillas",
+    "nombre": "Zapatillas rosas",
+    "precio": 7000,
+    "img": "../assets/sneakers-pink.jpg",
+    "detail": "El mejor producto14",
+    "stock": 14
+  },
+  {
+    "id": 15,
+    "category": "Ropa",
+    "nombre": "Pantalón negro",
+    "precio": 2000,
+    "img": "../assets/sport-pants.jpg",
+    "detail": "El mejor producto15",
+    "stock": 15
+  },
+  {
+    "id": 16,
+    "category": "Ropa",
+    "nombre": "Musculosa blanca",
+    "precio": 2000,
+    "img": "../assets/tshirt.jpg",
+    "detail": "El mejor producto16",
+    "stock": 16
+  },
+  {
+    "id": 17,
+    "category": "Ropa",
+    "nombre": "Musculosa gris",
+    "precio": 2000,
+    "img": "../assets/tshirt2.jpg",
+    "detail": "El mejor producto17",
+    "stock": 17
+  },
+  {
+    "id": 18,
+    "category": "Ropa",
+    "nombre": "Remera verdde claro",
+    "precio": 2000,
+    "img": "../assets/tshirt3.jpg",
+    "detail": "El mejor producto18",
+    "stock": 18
+  }
+]
